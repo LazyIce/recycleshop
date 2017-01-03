@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>recycleshop</display-name>
+    
+    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.ImageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <url-pattern>/ImageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.RegistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistServlet</servlet-name>
+        <url-pattern>/RegistServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.AdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/AdminServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RecycleServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.RecycleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecycleServlet</servlet-name>
+        <url-pattern>/RecycleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShopServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.ShopServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShopServlet</servlet-name>
+        <url-pattern>/ShopServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ActivateAccountServlet</servlet-name>
+        <servlet-class>com.recycle.servlets.ActivateAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ActivateAccountServlet</servlet-name>
+        <url-pattern>/ActivateAccountServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
